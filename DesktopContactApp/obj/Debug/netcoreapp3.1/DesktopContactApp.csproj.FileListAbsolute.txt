@@ -1,0 +1,6 @@
+C:\Users\William\Desktop\Projetos\C#\DesktopContactApp\DesktopContactApp\obj\Debug\netcoreapp3.1\DesktopContactApp.csproj.AssemblyReference.cache
+C:\Users\William\Desktop\Projetos\C#\DesktopContactApp\DesktopContactApp\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\William\Desktop\Projetos\C#\DesktopContactApp\DesktopContactApp\obj\Debug\netcoreapp3.1\NewContacttWindow.g.cs
+C:\Users\William\Desktop\Projetos\C#\DesktopContactApp\DesktopContactApp\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\William\Desktop\Projetos\C#\DesktopContactApp\DesktopContactApp\obj\Debug\netcoreapp3.1\DesktopContactApp_MarkupCompile.cache
+C:\Users\William\Desktop\Projetos\C#\DesktopContactApp\DesktopContactApp\obj\Debug\netcoreapp3.1\DesktopContactApp_MarkupCompile.lref
