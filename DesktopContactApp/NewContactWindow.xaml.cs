@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesktopContactApp.Classes;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -25,6 +26,20 @@ namespace DesktopContactApp
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             // Save contact
+
+            Contact contact = new Contact()
+            {
+                Name = nameTextBox.Text,
+                Email = emailTextBox.Text,
+                Phone = phoneTextBox.Text
+            };
+
+            //Saving in DB
+            string databaseName = "Contact.db";
+            string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            string databasePath = System.IO.Path.Combine(folderPath, databaseName);
+
+
             Close();
         }
     }
