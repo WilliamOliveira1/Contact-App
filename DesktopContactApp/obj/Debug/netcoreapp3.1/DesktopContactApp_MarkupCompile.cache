@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\William\Desktop\Projetos\C#\DesktopContactApp\DesktopContactApp\obj\Debug\netcoreapp3.1\
+C:\Users\William\Desktop\Projetos\C#\Contact-App\DesktopContactApp\obj\Debug\netcoreapp3.1\
 DesktopContactApp
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\William\Desktop\Projetos\C#\DesktopContactApp\DesktopContactApp\App.xaml
-2-1354745783
+C:\Users\William\Desktop\Projetos\C#\Contact-App\DesktopContactApp\App.xaml
+2-1772605110
 
-4-622203271
+4-1973645571
 192-1533232326
-MainWindow.xaml;NewContacttWindow.xaml;
+MainWindow.xaml;NewContactWindow.xaml;
 
-True
+False
 
