@@ -1,4 +1,5 @@
 ﻿using DesktopContactApp.Classes;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -34,11 +35,14 @@ namespace DesktopContactApp
                 Phone = phoneTextBox.Text
             };
 
-            //Saving in DB
-            string databaseName = "Contact.db";
-            string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            string databasePath = System.IO.Path.Combine(folderPath, databaseName);
-
+            //Creating database connection
+            using(SQLiteConnection connection = new SQLiteConnection(App.databasePath)) 
+            {
+                // Creating contact table
+                connection.CreateTable<Contact>();
+                //Saving in DB
+                connection.Insert(contact);
+            }                        
 
             Close();
         }

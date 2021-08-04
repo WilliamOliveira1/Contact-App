@@ -13,12 +13,9 @@ namespace DesktopContactApp.Classes
         public string Email { get; set; }
         public string Phone { get; set; }
 
-        public Contact(int id, string name, string email, string phone)
+        public override string ToString()
         {
-            Id = id;
-            Name = name;
-            Email = email;
-            Phone = phone;
+            return $"{Name} - {Email} - {Phone}";
         }
     }
 }
