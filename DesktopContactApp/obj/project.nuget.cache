@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "iYAbXGZrdtz8AhkeT4KQUWGJQVSwPMhwkfMR2iI3UENFofJDZATSmmN2o2WSNpBNwoAqGzt0yFj02wDNex6O7g==",
+  "dgSpecHash": "xgNK+bjli3JGVyPwybUQXG3Mg2/UlOGf0FMmyhSrpI99KlxbBINdc8hhuv3zQfH9fIj0X0S6bbMYc9Rp/PWHug==",
   "success": true,
   "projectFilePath": "C:\\Users\\William\\Desktop\\Projetos\\C#\\Contact-App\\DesktopContactApp\\DesktopContactApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\William\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\William\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\William\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\William\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.3\\sqlitepclraw.lib.e_sqlite3.2.0.3.nupkg.sha512",
+    "C:\\Users\\William\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\William\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }
